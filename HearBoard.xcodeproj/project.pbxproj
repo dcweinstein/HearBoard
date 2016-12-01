@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		630EEC781DACB57300B85ACC /* config.data in Resources */ = {isa = PBXBuildFile; fileRef = 630EEC771DACB57300B85ACC /* config.data */; };
 		631B652A1DA5E7CD00E484BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631B65291DA5E7CD00E484BF /* AppDelegate.swift */; };
 		631B652C1DA5E7CD00E484BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 631B652B1DA5E7CD00E484BF /* Assets.xcassets */; };
 		631B652F1DA5E7CD00E484BF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 631B652D1DA5E7CD00E484BF /* MainMenu.xib */; };
 		631B653A1DA5E7CD00E484BF /* HearBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631B65391DA5E7CD00E484BF /* HearBoardTests.swift */; };
 		631B65451DA5E7CD00E484BF /* HearBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631B65441DA5E7CD00E484BF /* HearBoardUITests.swift */; };
+		633C8F0F1DA740A700F8CA34 /* NowPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633C8F0E1DA740A700F8CA34 /* NowPlaying.swift */; };
+		6354C8971DAAC19F008E73E7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6354C8951DAAC19F008E73E7 /* MenuViewController.swift */; };
+		6354C8981DAAC19F008E73E7 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6354C8961DAAC19F008E73E7 /* MenuViewController.xib */; };
+		638E7C181DAB485B0014C1E6 /* ScrollTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638E7C171DAB485B0014C1E6 /* ScrollTrackView.swift */; };
+		638E7C1A1DAB4C260014C1E6 /* SizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638E7C191DAB4C260014C1E6 /* SizeView.swift */; };
+		63C210F71DADDFD20096B41A /* SongInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C210F61DADDFD20096B41A /* SongInfoView.swift */; };
+		63C210F91DADE10B0096B41A /* PlayControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C210F81DADE10B0096B41A /* PlayControlView.swift */; };
+		63C9A9151DAAF3B80038D4DE /* ScrollSpeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C9A9141DAAF3B80038D4DE /* ScrollSpeedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		630EEC771DACB57300B85ACC /* config.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.data; sourceTree = "<group>"; };
 		631B65261DA5E7CD00E484BF /* HearBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		631B65291DA5E7CD00E484BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		631B652B1DA5E7CD00E484BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,6 +53,14 @@
 		631B65401DA5E7CD00E484BF /* HearBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		631B65441DA5E7CD00E484BF /* HearBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearBoardUITests.swift; sourceTree = "<group>"; };
 		631B65461DA5E7CD00E484BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633C8F0E1DA740A700F8CA34 /* NowPlaying.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowPlaying.swift; sourceTree = "<group>"; };
+		6354C8951DAAC19F008E73E7 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		6354C8961DAAC19F008E73E7 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		638E7C171DAB485B0014C1E6 /* ScrollTrackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollTrackView.swift; sourceTree = "<group>"; };
+		638E7C191DAB4C260014C1E6 /* SizeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeView.swift; sourceTree = "<group>"; };
+		63C210F61DADDFD20096B41A /* SongInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongInfoView.swift; sourceTree = "<group>"; };
+		63C210F81DADE10B0096B41A /* PlayControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayControlView.swift; sourceTree = "<group>"; };
+		63C9A9141DAAF3B80038D4DE /* ScrollSpeedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollSpeedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +114,16 @@
 				631B65291DA5E7CD00E484BF /* AppDelegate.swift */,
 				631B652B1DA5E7CD00E484BF /* Assets.xcassets */,
 				631B652D1DA5E7CD00E484BF /* MainMenu.xib */,
+				63C210F81DADE10B0096B41A /* PlayControlView.swift */,
+				63C210F61DADDFD20096B41A /* SongInfoView.swift */,
+				6354C8951DAAC19F008E73E7 /* MenuViewController.swift */,
+				6354C8961DAAC19F008E73E7 /* MenuViewController.xib */,
+				633C8F0E1DA740A700F8CA34 /* NowPlaying.swift */,
 				631B65301DA5E7CD00E484BF /* Info.plist */,
+				638E7C191DAB4C260014C1E6 /* SizeView.swift */,
+				63C9A9141DAAF3B80038D4DE /* ScrollSpeedView.swift */,
+				638E7C171DAB485B0014C1E6 /* ScrollTrackView.swift */,
+				630EEC771DACB57300B85ACC /* config.data */,
 			);
 			path = HearBoard;
 			sourceTree = "<group>";
@@ -227,7 +254,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				631B652C1DA5E7CD00E484BF /* Assets.xcassets in Resources */,
+				6354C8981DAAC19F008E73E7 /* MenuViewController.xib in Resources */,
 				631B652F1DA5E7CD00E484BF /* MainMenu.xib in Resources */,
+				630EEC781DACB57300B85ACC /* config.data in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C9A9151DAAF3B80038D4DE /* ScrollSpeedView.swift in Sources */,
+				638E7C181DAB485B0014C1E6 /* ScrollTrackView.swift in Sources */,
+				63C210F91DADE10B0096B41A /* PlayControlView.swift in Sources */,
 				631B652A1DA5E7CD00E484BF /* AppDelegate.swift in Sources */,
+				638E7C1A1DAB4C260014C1E6 /* SizeView.swift in Sources */,
+				633C8F0F1DA740A700F8CA34 /* NowPlaying.swift in Sources */,
+				6354C8971DAAC19F008E73E7 /* MenuViewController.swift in Sources */,
+				63C210F71DADDFD20096B41A /* SongInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +445,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = HearBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dcweinstein.HearBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -492,6 +529,7 @@
 				631B654B1DA5E7CD00E484BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		631B654C1DA5E7CD00E484BF /* Build configuration list for PBXNativeTarget "HearBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +538,7 @@
 				631B654E1DA5E7CD00E484BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		631B654F1DA5E7CD00E484BF /* Build configuration list for PBXNativeTarget "HearBoardUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +547,7 @@
 				631B65511DA5E7CD00E484BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
