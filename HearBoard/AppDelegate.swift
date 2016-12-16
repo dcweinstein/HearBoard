@@ -206,7 +206,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 		}
 		else {
 			length = CGFloat(DISPLAYED_CHARS) * 7.5
-			self.statusItem = NSStatusBar.system().statusItem(withLength: length!)
+//			self.statusItem = NSStatusBar.system().statusItem(withLength: length!)
 		}
 		
 		if(trackAndArtist != prevTrack) {
