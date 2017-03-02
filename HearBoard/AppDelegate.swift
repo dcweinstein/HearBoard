@@ -38,7 +38,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 	@IBOutlet weak var settingsMenuItem: NSMenuItem!
 	let defaults = UserDefaults.standard
 	
-	var path = "./Applications/HearBoard.app/Contents/Resources/config.data"
+	var path = Bundle.main.path(forResource: "config", ofType: "data")
 	
 	
 	var DISPLAYED_CHARS = 20
@@ -78,7 +78,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 		needsRefresh = true
 	}
 	@IBAction func quitClicked(_ sender: NSMenuItem) {
-		let file: FileHandle? = FileHandle(forWritingAtPath: path)
+		let file: FileHandle? = FileHandle(forWritingAtPath: path!)
 		if file != nil {
 			let data = (String(DISPLAYED_CHARS) + "\n" + String(SCROLL_DELAY) + "\n" + String(ALLOW_SCROLLING) + "\n" as NSString).data(using: String.Encoding.utf8.rawValue)
 			file?.write(data!)
@@ -126,7 +126,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 	
 	func applicationDidFinishLaunching(_ aNotification: Notification) {
 		do {
-			let fileContents = try String(contentsOfFile: path, encoding: String.Encoding.utf8)
+			let fileContents = try String(contentsOfFile: path!, encoding: String.Encoding.utf8)
 			let settings:Array<String> = NSString(string: fileContents).components(separatedBy: "\n")
 			DISPLAYED_CHARS = Int(settings[0])!
 			let sizeKnob = Double(DISPLAYED_CHARS) / 0.4
@@ -141,7 +141,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 				scrollTrackButton.setNextState()
 			}
 		} catch {
-			print("File not found: " + path)
+			print("File not found: " + path!)
 		}
 		songInfoMenuItem = statusMenu.item(withTitle: "Song Info")
 		songInfoMenuItem.view = songInfoView
